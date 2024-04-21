@@ -2041,11 +2041,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\33767\\Desktop\\dotnet-code\\HelloWorld\\HelloWorld.csproj",
+      "projectUniqueName": "C:\\Users\\33767\\Desktop\\coding\\HelloWorld\\HelloWorld.csproj",
       "projectName": "HelloWorld",
-      "projectPath": "C:\\Users\\33767\\Desktop\\dotnet-code\\HelloWorld\\HelloWorld.csproj",
+      "projectPath": "C:\\Users\\33767\\Desktop\\coding\\HelloWorld\\HelloWorld.csproj",
       "packagesPath": "C:\\Users\\33767\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\33767\\Desktop\\dotnet-code\\HelloWorld\\obj\\",
+      "outputPath": "C:\\Users\\33767\\Desktop\\coding\\HelloWorld\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\33767\\AppData\\Roaming\\NuGet\\NuGet.Config"

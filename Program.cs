@@ -113,13 +113,6 @@ Console.Write("Third");*/
         //   };
  
         //   Console.WriteLine(myGroceryDictionary["Cheese"]);
-using System;
-namespace HelloWorld 
-{
-    internal class Program
-    {
-        static void Main(String []args)
-        {
         //     int myInt =5;
         //     int mySecondInt =10;
         //     Console.WriteLine(myInt);
@@ -145,21 +138,29 @@ namespace HelloWorld
         //    Console.WriteLine( myFirstValue-=mySecondValue);
             // string myFirstValue = "some words";
             // string mySecondValue = "Some words";
+using System;
+namespace HelloWorld 
+{
+    internal class Program
+    {
+        static void Main(String []args)
+        {
+        
            
            
-            List<int> myNumberList = new List<int>(){
-                2, 3, 5, 6, 7, 9, 10, 123, 324, 54
-            };
+            // List<int> myNumberList = new List<int>(){
+            //     2, 3, 5, 6, 7, 9, 10, 123, 324, 54
+            // };
             
-             static  void PrintIfOdd(int n){
-                if(!(n%2==0)){
-                    Console.WriteLine(n);
-                };
-             }
-            foreach (var number in myNumberList)
-            {
-                PrintIfOdd(number);
-            }
+            //  static  void PrintIfOdd(int n){
+            //     if(!(n%2==0)){
+            //         Console.WriteLine(n);
+            //     };
+            //  }
+            // foreach (var number in myNumberList)
+            // {
+            //     PrintIfOdd(number);
+            // }
         
        
             
