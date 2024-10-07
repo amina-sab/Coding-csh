@@ -139,14 +139,52 @@ Console.Write("Third");*/
             // string myFirstValue = "some words";
             // string mySecondValue = "Some words";
 using System;
+using System.Data;
+using Dapper;
+using Microsoft.Data.SqlClient;
 namespace HelloWorld 
 {
     internal class Program
     {
-        static void Main(String []args)
-        {
-        
-           
+         static void Main(String []args) {
+             string connectionString="Server=localhost;Database=DotNetCourseDataBase;TrustServerCertificate=true;Trusted_Connection=true";
+             IDbConnection dbConnection=new SqlConnection(connectionString);
+             DateTime rightNow =dbConnection.QuerySingle<DateTime>("SELECT GETDATE()");
+             Console.WriteLine(rightNow.ToString());
+             
+
+            Computer myComputer =new Computer(){
+                Motherboard="Z690",
+                HasWifi=true,
+                HasLTE=false,
+                ReleaseDate=DateTime.Now,
+                Price=943.87m,
+                VideoCard="RTX 2060"
+
+            };
+
+            string sql=@"INHSERT INTO TutorialAppSchema.Computer(
+                Motherboard,
+                HasWifi,
+                HasLTE,
+                ReleaseDate,
+                Price,
+                VideoCard
+                )VALUES(
+                    @Motherboard ,
+                    @HasWifi,
+                    @HasLTE,
+                    @ReleaseDate,
+                    @Price,
+                    @VideoCard,
+                )";
+            
+            Console.WriteLine(sql);
+
+            int result=dbConnection.Execute(sql,myComputer);
+            
+            //Console.WriteLine(result);
+             
            
             // List<int> myNumberList = new List<int>(){
             //     2, 3, 5, 6, 7, 9, 10, 123, 324, 54
@@ -165,7 +203,7 @@ namespace HelloWorld
        
             
             
-        }
+       }
     }
 }
 

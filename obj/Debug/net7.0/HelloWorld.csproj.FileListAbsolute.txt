@@ -94,3 +94,9 @@ C:\Users\33767\Desktop\coding\HelloWorld\obj\Debug\net7.0\HelloWorld.csproj.Copy
 C:\Users\33767\Desktop\coding\HelloWorld\obj\Debug\net7.0\HelloWorld.dll
 C:\Users\33767\Desktop\coding\HelloWorld\obj\Debug\net7.0\refint\HelloWorld.dll
 C:\Users\33767\Desktop\coding\HelloWorld\obj\Debug\net7.0\HelloWorld.pdb
+C:\Users\33767\desktop\coding\HelloWorld\bin\Debug\net7.0\HelloWorld.deps.json
+C:\Users\33767\desktop\coding\HelloWorld\bin\Debug\net7.0\HelloWorld.runtimeconfig.json
+C:\Users\33767\desktop\coding\HelloWorld\bin\Debug\net7.0\HelloWorld.dll
+C:\Users\33767\desktop\coding\HelloWorld\bin\Debug\net7.0\HelloWorld.pdb
+C:\Users\33767\desktop\coding\HelloWorld\obj\Debug\net7.0\HelloWorld.genruntimeconfig.cache
+C:\Users\33767\desktop\coding\HelloWorld\obj\Debug\net7.0\ref\HelloWorld.dll
